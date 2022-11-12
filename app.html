@@ -2,12 +2,52 @@
 <html lang = "ru">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
         <link rel="shortcut icon" href="cats.jpg" type="image/jpg">
         <script src="script.js"></script>
     
     </head>
     <body>
+        <div id = "wrapper">
+            <div id = "header">
+            <!--Шапка-->
+            <header>
+            <img class = "logo" src="images/logo.PNG" />
+            <dl class = "menu">
+                <a href = "#" class = "m-1">о IT-skills</a>
+                <a href = "#" class = "m-2">Каталог курсов</a>
+                <a href = "#" class = "m-3">Новости</a>
+                <a href = "#" class = "m-4">Вебинары</a>
+            </dl>
+            <div class="wrap">
+                <form>
+                <input type="text" class="input" placeholder="Поиск">
+                </form>
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class = "button">
+                <button id = "login" class = "button color">
+                    <i class = "fa fa-unlock"></i>
+                    <span>Войти</span>
+                </button>
+                <a id="register" class="button purple" href="/register">
+                    <i class="fa fa-user-plus"></i>
+                    <span>Зарегистрироваться</span>
+                  </a>
+            </div>
+            <div id="circle">
+                <p>IT-Skills - образование в ИТ</p>
+                <p class = "textB">УЧИМ
+                    НАВЫКАМ 
+                    И ПРОФЕССИЯМ</p>
+            </div>
+            </div>
+            </header>
+        </div>
         <script>
             $(document).ready(function(){
       
@@ -18,28 +58,6 @@
       
     });
         </script>
-        <div id = "wrap">
-            <div id = "header">
-            <!--Шапка-->
-            <header>
-            <img src="images/logo.PNG" />
-            <dl class = "menu">
-                <a href = "#" class = "m-1">о IT-skills</a>
-                <a href = "#" class = "m-2">Каталог курсов</a>
-                <a href = "#" class = "m-3">Новости</a>
-                <a href = "#" class = "m-4">Вебинары</a>
-            </dl>
-            <!--Форма поиска-->
-            <div class="wrap">
-                <form>
-                <input type="text" class="input" placeholder="Поиск">
-                </form>
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </div>
-            </div>
-            </header>
-        </div>
-    
     </body>
 
     </html>
