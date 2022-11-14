@@ -185,35 +185,230 @@ menu{
   }
   p{
     position: absolute;
-width: 211px;
-height: 19px;
-left: 195px;
-top: 50px;
+    width: 211px;
+    height: 19px;
+    left: 195px;
+    top: 50px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
 
-letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
 
-color: #000000;
+    color: #000000;
   }
   .textB{
     position: absolute;
-width: 259px;
-height: 114px;
-left: 195px;
-top: 80px;
+    width: 259px;
+    height: 114px;
+    left: 195px;
+    top: 80px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+  }
+  .textC{
+    position: absolute;
+    width: 259px;
+    height: 114px;
+    left: 195px;
+    top:200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+
+  color: #000000;
+  }
+  #circle_2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 850px;
+    top: 175px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    z-index: -1;
+    background: #addefa;
+  }
+  #circle_3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+    top: 175px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    background: rgba(0, 0, 0, 0.08);
+    background: #54B4EA
+  }
+  #rectangle{
+    position: absolute;
+    width: 816px;
+    height: 100px;
+    left: 300px;
+    top: 568px;
+
+    background: #D9D9D9;
+    border-radius: 10px;
+  }
+  .Reclama{
+    position: absolute;
+    width: 615px;
+    height: 23px;
+    left: 30px;
+    top: 13px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    }
+    .textRec{
+      position: absolute;
+      width: 588px;
+      height: 23px;
+      left: 30px;
+      top: 50px;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+
+      color: #000000;
+    }
+    /*крестик закрытия рекламного блока*/
+    .cl-btn-7 {
+      width: 40px;
+      height: 40px;
+      border-radius: 40px;
+      position: relative;
+      z-index: 1;
+      margin: 20px auto;
+      cursor: pointer;
+  }
+  .cl-btn-7:before {
+      content: '+';
+      color: #000000;
+      position: absolute;
+      z-index: 2;
+      transform: rotate(45deg);
+      font-size: 50px;
+      line-height: 1;
+      top: -20px;
+      left:  380px;
+      transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+  }
+  .cl-btn-7:hover:after {
+      transform: scale(1);
+  }
+  .cl-btn-7:hover:before {
+      transform: scale(0.8) rotate(45deg);
+      color: #817EFF;
+  }
+  /*3 блок*/
+  #rectangle_2{
+    position: absolute;
+width: 1200px;
+height: 654px;
+left: 121px;
+top: 682px;
+
+background: #D9D9D9;
+border-radius: 12px;
+  }
+  .text3{
+    position: absolute;
+width: 421px;
+height: 38px;
+left: 179px;
+top: 38px;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 38px;
+/* identical to box height */
+letter-spacing: 0.02em;
+white-space: nowrap;
+color: #000000;
+  }
+  .line{
+    position: absolute;
+width: 1098.02px;
+height: 0px;
+left: 97px;
+top: 87px;
+
+border: 2px solid #000000;
+transform: rotate(-180deg);
+  }
+  .t-1{
+    position: absolute;
+    width: 157px;
+    height: 28px;
+    left: 222px;
+    top: 826px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+  }
+.t-2{
+  position: absolute;
+width: 130px;
+height: 28px;
+left: 222px;
+top: 1009.75px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
 letter-spacing: 0.02em;
 
 color: #000000;
-  }
+}
+.t-3{
+  position: absolute;
+width: 167px;
+height: 28px;
+left: 222px;
+top: 1194px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
